@@ -2,13 +2,10 @@
 
        A palindrome is a string that reads the same forwards and backwards. */
 
-import 'dart:io';
+
 
 void main() {
-  
-  print('Enter a name ');
-  String? name = stdin.readLineSync();
-  for (int i = 0; i <; i++) {
-    
-  }
+
+
+
 }

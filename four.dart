@@ -6,12 +6,11 @@
 
 import 'dart:io';
 
-void main() {
+void main(List<String> args) {
   print('Enter a number');
-  int num = int.parse(stdin.readLineSync()!);
-  List a = [];
-
-  for (int i = 1; i <= num; i++) {
+  var num = int.parse(stdin.readLineSync()!);
+  var a = [];
+  for (int i = 1; i < num; i++) {
     if (num % i == 0) {
       a.add(i);
     }
@@ -33,9 +32,17 @@ void main() {
 
 
 
+// void main() {
+//   print('Enter a number');
+//   int num = int.parse(stdin.readLineSync()!);
+//   List a = [];
 
-
-
-
+//   for (int i = 1; i <= num; i++) {
+//     if (num % i == 0) {
+//       a.add(i);
+//     }
+//   }
+//   print('$a');
+// }
 
 
