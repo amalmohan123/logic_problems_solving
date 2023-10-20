@@ -11,7 +11,6 @@ import 'dart:io';
 void main() {
   print("enter a sentence");
   String sentence = stdin.readLineSync()!;
-
   final ans = sentence.split(" ").reversed.toList().join(" ");
   print(ans);
 }

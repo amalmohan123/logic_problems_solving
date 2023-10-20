@@ -26,10 +26,5 @@ void main() {
 
 print("enter a name");
 String name = stdin.readLineSync()!;
-
-
-
-
-
-
+print(name);
 }
